@@ -5,7 +5,7 @@
 
 ## :hammer: Funcionalidades do projeto
 
-- `Agenda para Moradores`: Agendamento de Locais de um Condomínio
+- `Agenda`: Agendamento de Locais de um Condomínio
 - `Moradores`: Gerenciamento de Moradores
 - `Fornecedores`: Gerenciamento de Fornecedores
 - `Notificações`: Emissão de Notificações
