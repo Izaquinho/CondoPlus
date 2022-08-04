@@ -12,12 +12,12 @@
 
 ## :hammer: Ferramentas
 
-- `NetBeans 14`
-- `Scene Builder`
-- `MySQL Workbench`
-- `XAMPP`
-- `StarUML`
-- `brModelo`
+- `NetBeans 14` : Código
+- `Scene Builder` : Telas
+- `MySQL Workbench` : Banco de Dados
+- `XAMPP` : Servidor de Código Aberto
+- `StarUML` : Diagrama
+- `brModelo` : Modelo Conceitual
 
 ## 👨‍💻 Execução
 
