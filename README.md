@@ -5,10 +5,10 @@
 
 ## :gear: Funcionalidades do Projeto
 
-- `Agenda`: Agendamento de Locais de um Condomínio
-- `Moradores`: Gerenciamento de Moradores
-- `Fornecedores`: Gerenciamento de Fornecedores
-- `Notificações`: Emissão de Notificações
+- `Agenda` : Agendamento de Locais de um Condomínio
+- `Moradores` : Gerenciamento de Moradores
+- `Fornecedores` : Gerenciamento de Fornecedores
+- `Notificações` : Emissão de Notificações
 
 ## :hammer: Ferramentas
 
