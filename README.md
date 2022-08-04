@@ -10,7 +10,7 @@
 - `Fornecedores`: Gerenciamento de Fornecedores
 - `Notificações`: Emissão de Notificações
 
-## :screwdriver: Ferramentas
+## :hammer: Ferramentas
 - `NetBeans`
 - `SceneBuilder`
 - `MySQL Workbench`
