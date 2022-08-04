@@ -3,7 +3,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-## :gear: Funcionalidades do projeto
+## :gear: Funcionalidades do Projeto
 
 - `Agenda`: Agendamento de Locais de um Condomínio
 - `Moradores`: Gerenciamento de Moradores
