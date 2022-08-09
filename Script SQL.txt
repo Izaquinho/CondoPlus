@@ -1,0 +1,87 @@
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
+USE `mydb` ;
+
+CREATE TABLE IF NOT EXISTS `mydb`.`fornecedor` (  
+	`idFornecedor` INT NOT NULL AUTO_INCREMENT, 
+	`nomeFornecedor` VARCHAR(255)  NOT NULL,
+	`categoriaFornecedor` VARCHAR(45)NOT NULL,
+	`cpfFornecedor` VARCHAR(20) NOT NULL, 
+	`rgFornecedor` VARCHAR(20) NOT NULL,  
+	`precoFornecedor` DOUBLE NOT NULL,
+	`telefoneFornecedor` varchar (15) NOT NULL,   
+	`emailFornecedor` VARCHAR(255)  NOT NULL,
+	PRIMARY KEY (`idFornecedor`)) 
+ ENGINE = InnoDB;
+
+insert into fornecedor values (1,"Isaak", ' mecanico', '6846546541', '9348621309867', 23, "34256896", 'aiughrhrtothowçijh');
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`notificacao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`notificacao` (
+  `idnotificacao` INT NOT NULL AUTO_INCREMENT,
+  `dataNotificacao` DATE NOT NULL,
+  `emissorNotificacao` VARCHAR(255)  NOT NULL,
+  `mensagemNotificacao` VARCHAR(255)  NOT NULL,
+  `classificacaoNotificacao` INT NOT NULL,
+  PRIMARY KEY (`idnotificacao`))
+ENGINE = InnoDB;
+
+insert into notificacao values (1, 02/07/2022, 'Nicolas', 'Reunião', 1);
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`usuario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`usuario` (
+	`idUser` INT NOT NULL AUTO_INCREMENT,
+    `senhaUser` VARCHAR (255) not null ,
+	`nomeUser` VARCHAR(255)NOT NULL,
+	`nascUser` VARCHAR (255) NOT NULL,	
+    `cpfUser` VARCHAR(20)NOT NULL,
+	`rgUser` VARCHAR(20) NOT NULL,
+    `numero_aptoUser` INT(20) NOT NULL,
+	`telefoneUser` VARCHAR (255) NOT NULL,
+	`emailUser` VARCHAR(255)  NOT NULL,
+	`nivelUser` INT NOT NULL,
+
+  PRIMARY KEY (`idUser`))
+ENGINE = InnoDB;
+
+insert into usuario values (2 ,'03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'Nicolas', '15/12/2004', '´106106510610', '59555', '5555555' ,'57576847684', 'pewuhpeuoghqeioh', 1);
+
+-- -----------------------------------------------------
+-- Table `mydb`.`espaco`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`espaco` (
+  `idespaco` INT NOT NULL AUTO_INCREMENT,
+  `nomeEspaco` VARCHAR(45)  NOT NULL,
+  `capacidadeEspaco` INT NOT NULL,
+  `taxa_locacaoEspaco` DOUBLE NOT NULL,
+  PRIMARY KEY (`idespaco`))
+ENGINE = InnoDB;
+
+-- -----------------------------------------------------
+-- Table `mydb`.`evento`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`evento` (
+  `idEvento` VARCHAR (255) NOT NULL,
+  `nomeEvento` VARCHAR(45)NOT NULL,
+  `localEvento`VARCHAR (255)NOT NULL,
+  `horaEvento` varchar (255) NOT NULL,
+  `dataEvento` varchar (255) NOT NULL,
+  `duracaoEvento` varchar(255) NOT NULL,
+  PRIMARY KEY (`idevento`))
+ENGINE = InnoDB;
+
+insert into evento values ('1', 'Reunião', 'Sala de Reuniões', '19:00', '2022-13-7', 'PT3H');
+
+
+select * from usuario;
+
+select * from notificacao;
+
+select * from fornecedor;
+
+select * from evento;
