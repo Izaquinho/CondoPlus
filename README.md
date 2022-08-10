@@ -25,4 +25,4 @@
 - `FXML`
 - `MySQL`
 
-<img src="{https://github.com/Izaquinho/CondoPlus/tree/main/Diagramas}" />
+<img src="{BadgeURLHere}" />
