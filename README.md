@@ -24,5 +24,3 @@
 - `Java`
 - `FXML`
 - `MySQL`
-
-![image]({BadgeURLHere})
