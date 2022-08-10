@@ -25,4 +25,4 @@
 - `FXML`
 - `MySQL`
 
-<img src="{BadgeURLHere}" />
+![image]({BadgeURLHere})
